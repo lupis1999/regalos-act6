@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda Recursiva de Regalos</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎄 Buscador Recursivo de Regalos 🎁</h1>
+
+        <div class="card">
+            <h2>Lista de Regalos</h2>
+
+            <div class="input-group">
+                <input type="text" id="giftInput" placeholder="Agregar regalo">
+                <button onclick="addGift()">Agregar</button>
+            </div>
+
+            <ul id="giftList"></ul>
+        </div>
+
+        <div class="card">
+            <h2>Buscar Regalo</h2>
+
+            <div class="input-group">
+                <input type="text" id="searchGift" placeholder="Nombre del regalo">
+                <button onclick="startSearch()">Buscar</button>
+            </div>
+
+            <div id="result"></div>
+
+            <div class="steps">
+                <h3>Proceso Recursivo</h3>
+                <ul id="process"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
